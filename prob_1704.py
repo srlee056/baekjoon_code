@@ -12,7 +12,6 @@ def recur_array(N, R, C):
     if C >= H :
         C -= H
         result += X
-    #print(result)
     return result + recur_array(N-1, R, C)
 
 N, R, C = input().split()
